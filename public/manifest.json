@@ -1,0 +1,21 @@
+{
+  "name": "F-bar - Restaurant & Bar",
+  "short_name": "F-bar",
+  "description": "Premium restaurant and bar experience in Gurugram",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#8b5cf6",
+  "theme_color": "#8b5cf6",
+  "icons": [
+    {
+      "src": "/img/toplogo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/img/toplogo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

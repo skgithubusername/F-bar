@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://f-bar-gurugram.com/sitemap.xml
+
+# Prevent crawling of specific paths if needed
+# Disallow: /admin/
+# Disallow: /private/
