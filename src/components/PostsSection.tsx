@@ -46,10 +46,7 @@ export default function PostsSection() {
         
         {/* Title Overlay */}
         <div className="absolute bottom-0 left-0 right-0 p-6 transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
-          <h3 className="text-white text-xl font-bold mb-2">{post.title}</h3>
-          {post.description && (
-            <p className="text-gray-300 text-sm line-clamp-2">{post.description}</p>
-          )}
+          <h3 className="text-white text-xl font-bold">{post.title}</h3>
         </div>
       </div>
     </div>
