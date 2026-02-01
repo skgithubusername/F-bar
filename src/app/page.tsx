@@ -12,6 +12,7 @@ import TeaserSection from '@/components/TeaserSection';
 import AboutSection from '@/components/AboutSection';
 import ReviewSection from '@/components/ReviewSection';
 import PostsSection from '@/components/PostsSection';
+import DisplayComponentsDemo from '@/components/DisplayComponentsDemo';
 
 // Structured data for the main page
 const pageStructuredData = {
@@ -43,6 +44,7 @@ const tabs = [
   { id: 'about', label: 'About' },
   { id: 'review', label: 'Review' },
   { id: 'posts', label: 'Posts' },
+  { id: 'demo', label: 'Demo' },
 ];
 
 const menuItems = [
@@ -319,6 +321,12 @@ export default function Home() {
         return (
           <div>
             <PostsSection />
+          </div>
+        );
+      case 'demo':
+        return (
+          <div>
+            <DisplayComponentsDemo />
           </div>
         );
       default:
